@@ -16,12 +16,13 @@ body{
   width: 23.4375rem;
   height: calc(100vh - 20rem);
   margin: 4rem auto;
-  background-color: rgb(180, 215, 245);
+  background-color: rgb(0, 0, 0);
 }
 main{
   width: 85%;
-  height: calc(90vh - 5rem);
+  height: calc(90vh - 7rem);
   background-color: rgb(255, 255, 255);
+  box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -29,6 +30,7 @@ main{
   border-radius: .9375rem;
 }
 .human-listen-music{
+  width: 100%;
   border-top-left-radius: .9375rem;
   border-top-right-radius: .9375rem; 
 }
@@ -66,4 +68,44 @@ main{
   font-size: 0.8rem;
   position: absolute;
   padding: 15px;
+}
+.container img{
+  margin: 0 0 0 .5rem;
+}
+.container h3{
+  margin: 0 1rem 1.5rem 0;
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+.container p{
+  margin: 1rem 1.6rem 0 0;
+  color: var(--desatured-blue);
+}
+.change{
+  margin: 0 .6rem .3rem 0;
+  color: var(--brigth-blue);
+  font-weight: 900;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: .9rem;
+}
+.payment{
+  display: flex;
+  width: 85%;
+  margin: 1.5rem auto 1.3rem;
+  height: 3rem;
+  background-color: var(--brigth-blue);
+  border-radius: .9rem;
+  text-decoration: none;
+  box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
+}
+.payment h3{
+  margin: 0.7rem auto;
+  color: var(--very-pale-blue);
+  font-size: 1rem;
+  align-items: center;
+}
+.cancel{
+  text-decoration: none;
+  color: var(--desatured-blue);
+  font-weight: 600;
 }
