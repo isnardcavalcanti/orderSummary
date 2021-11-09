@@ -14,13 +14,14 @@
 body{
   font-family: 'Red Hat Display', sans-serif;
   width: 23.4375rem;
-  height: calc(100vh - 20rem);
-  margin: 4rem auto;
-  background-color: rgb(0, 0, 0);
+  height: calc(100vh);
+  margin: 1.5rem auto;
+  background-color: #D6E1FF;
+  overflow-y: hidden;
 }
 main{
   width: 85%;
-  height: calc(90vh - 7rem);
+  height: calc(90vh - 14rem);
   background-color: rgb(255, 255, 255);
   box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
   display: flex;
@@ -30,13 +31,15 @@ main{
   border-radius: .9375rem;
 }
 .human-listen-music{
-  width: 100%;
+  max-width: 100%;
   border-top-left-radius: .9375rem;
   border-top-right-radius: .9375rem; 
+  background: url("/images/illustration-hero.svg");
+  background-size: cover;
 }
 
 .title{
-  margin: 1.3rem;
+  margin: 1rem;
   color: var(--dark-blue);
   font-weight: 900;
 }
@@ -44,6 +47,7 @@ main{
   margin: 0 2rem 1.5rem 1.5rem; 
   color: var(--desatured-blue);
   font-weight: 500;
+  font-size: .9rem;
 }
 .section-informations{
   background-color: var(--very-pale-blue);
