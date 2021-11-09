@@ -24,7 +24,7 @@ body{
 }
 main{
   width: 85%;
-  height: calc(102vh - 14rem);
+  height: calc(100vh - 14rem);
   background-color: rgb(255, 255, 255);
   box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
   /* margin: 7rem auto 0 auto; */
@@ -84,7 +84,7 @@ main{
   font-weight: 900;
 }
 .container p{
-  margin: 1rem 1.6rem 0 0;
+  margin: .5rem 2.5rem 0 0;
   color: var(--desatured-blue);
 }
 .change{
