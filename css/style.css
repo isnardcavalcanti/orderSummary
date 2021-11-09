@@ -25,7 +25,7 @@ main{
   background-color: rgb(255, 255, 255);
   box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
   display: flex;
-  margin: 7rem auto;
+  margin: 10rem auto;
   flex-direction: column;
   text-align: center;
   border-radius: .9375rem;
