@@ -14,18 +14,20 @@
 body{
   font-family: 'Red Hat Display', sans-serif;
   width: 23.4375rem;
-  height: calc(100vh);
-  margin: 1.5rem auto;
+  height: calc(82vh);
+  margin: 2.5rem auto;
   background-color: #D6E1FF;
   overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main{
   width: 85%;
-  height: calc(90vh - 14rem);
+  height: calc(102vh - 14rem);
   background-color: rgb(255, 255, 255);
   box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
-  display: flex;
-  margin: 8rem auto 0 auto;
+  /* margin: 7rem auto 0 auto; */
   flex-direction: column;
   text-align: center;
   border-radius: .9375rem;
@@ -39,21 +41,21 @@ main{
 }
 
 .title{
-  margin: 1rem;
+  margin: 2rem;
   color: var(--dark-blue);
   font-weight: 900;
 }
 .first-paragraph{
-  margin: 0 2rem 1.5rem 1.5rem; 
+  margin: 1rem 2rem 1.5rem 1.5rem; 
   color: var(--desatured-blue);
   font-weight: 500;
-  font-size: .9rem;
+  font-size: 1rem;
 }
 .section-informations{
   background-color: var(--very-pale-blue);
   width: 85%;
   height: 4.1rem;
-  margin: 0 auto;
+  margin: 2rem auto;
   border-radius: .9375rem;
 }
 .container{
@@ -101,6 +103,8 @@ main{
   border-radius: .9rem;
   text-decoration: none;
   box-shadow: hsl(224deg 23% 55% / 64%) 0px .9375rem 2.0625rem;
+  margin: .5rem;
+  display: inline-block;
 }
 .payment h3{
   margin: 0.7rem auto;
@@ -109,6 +113,8 @@ main{
   align-items: center;
 }
 .cancel{
+  display: inline-block;
+  margin-top: 1.5rem;
   text-decoration: none;
   color: var(--desatured-blue);
   font-weight: 600;
